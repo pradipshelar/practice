@@ -130,5 +130,7 @@ public class GenericUtils {
 		JavascriptExecutor js = ((JavascriptExecutor) driver);
 		js.executeScript("arguments[0].setAttribute('value','" + dateVal + "')", element);
 	}
-
+public static void hello()
+{
+	System.out.println("heloooo");}
 }

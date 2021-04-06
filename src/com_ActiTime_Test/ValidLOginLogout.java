@@ -17,10 +17,18 @@ public class ValidLOginLogout extends BaseTest
 		lp.enterpassword("manager");
 		lp.clickOnLoginButton();
        // lp.getErrorMessage();
-        lp.getVersion();
+        lp.getVersion();  
    
 	}
-	
-	
+	@Test
+	public void loginset()
+	{
+		System.out.println("hello...set login");
+	}
+	@Test
+	public void heloo()
+	{
+		System.out.println("heloo pradip");
+	}
 
 }
